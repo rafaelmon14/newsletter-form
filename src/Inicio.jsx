@@ -37,7 +37,7 @@ const Inicio = () => {
   localStorage.setItem('submittedEmail', email);
 
   if(isSubmitted){
-    window.location.href = "/confirm-page";
+    window.location.href = "/newsletter/confirm-page";
     return null;
   }
 
