@@ -7,8 +7,8 @@ function App() {
   return (
     <div >
       <Routes>
-        <Route path="/newsletter" element={ <Inicio/>}/>
-        <Route path="/newsletter/confirm-page" element={ <ConfirmPage/>}/>
+        <Route path="/newsletter-form" element={ <Inicio/>}/>
+        <Route path="/newsletter-form/confirm-page" element={ <ConfirmPage/>}/>
       </Routes>
     </div>
   )
